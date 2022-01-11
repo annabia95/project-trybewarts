@@ -12,3 +12,12 @@
 .trybewarts-login {
   display: flex;
 }
+
+/* REQUISITO 5 */
+.main-content {
+  display: flex;
+}
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
