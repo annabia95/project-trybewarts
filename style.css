@@ -40,7 +40,7 @@ header:nth-child(){
   height: 500px;
 }
 
-/* Requisito 12 */
+/* Requisito 12 e Requisito 13 */
 .flex-container {
   display: flex;
 }
@@ -49,4 +49,5 @@ header:nth-child(){
   flex-direction: column;
   justify-content: space-around;
   height: 200px;
+  margin: 5px;
 }
