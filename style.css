@@ -18,9 +18,6 @@
 .trybewarts-login {
   display: flex;
 }
-.trybewarts-login {
-  display: flex;
-}
 /* REQUISITO 4 */
 header:nth-child(){
   align-items: center;
@@ -44,7 +41,10 @@ header:nth-child(){
 }
 
 /* Requisito 12 */
-#label-family-container {
+.flex-container {
+  display: flex;
+}
+#label-family-container, #label-content {
   display: flex;
   flex-direction: column;
   justify-content: space-around;

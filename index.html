@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Trybewarts</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Trybewarts</title>
 </head>
+
 <body>
-  
+
   <!--  Requisito 1 -->
   <header class="header">
     <!-- Requisito 2 -->
-    <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="trybewarts-header-logo" >
-    
+    <img src="images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="trybewarts-header-logo">
+
     <!-- Requisito 4 -->
 
     <h1 id="trybewarts-header-title">Trybewarts</h1>
@@ -30,98 +32,78 @@
 
 
   </header>
- <!--  Requisito 5  -->
+  <!--  Requisito 5  -->
   <main class="main-content">
     <form action="" method="get" id="evaluation-form">
-        
-     <!-- Requisito 8 -->
-    <div id="complete-name" >
-      <input id="input-name" placeholder="Nome">
-      <input id="input-lastname" placeholder="Sobrenome">
-    </div>
-    <div id="email-house">
-      <input id="input-email" placeholder="Email">
-      <!--  Requisito 9 -->
-      <label for="house">Casa</label>
-      <select name="house" id="house">
-        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-        <option value="Reactpuff"id="reactpuff-house">Reactpuff</option>
-        <option value="Corvinode" id="corvinode-house">Corvinode</option>
-        <option value="Pytherina" id="pytherina-house">Pytherina</option>
-      </select>
-    </div>
 
-    <!-- Requisito 12 -->
-    <div id="label-family-container">
-        <label id="label-family">Qual sua família?</label>
-        <div id="label-family-options">
-          <input type= 'radio' id="label-family-1" name="family" value="Frontend">
-          <label for="label-family-1" name='label-family-option'>Frontend</label>
+      <!-- Requisito 8 -->
+      <div id="complete-name">
+        <input id="input-name" placeholder="Nome">
+        <input id="input-lastname" placeholder="Sobrenome">
+      </div>
+      <div id="email-house">
+        <input id="input-email" placeholder="Email">
+        <!--  Requisito 9 -->
+        <label for="house">Casa</label>
+        <select name="house" id="house">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+      </div>
+      <hr>
+      <div class="flex-container">
+        <!-- Requisito 12 -->
+        <div id="label-family-container">
+          <label id="label-family">Qual sua família?</label>
+          <div id="label-family-options">
+            <input type='radio' id="label-family-1" name="family" value="Frontend">
+            <label for="label-family-1" name='label-family-option'>Frontend</label>
+          </div>
+          <div id="label-family-options">
+            <input type='radio' id="label-family-2" name="family" value="Backend">
+            <label for="label-family-2" name='label-family-option'>Backend</label>
+          </div>
+          <div id="label-family-options">
+            <input type='radio' id="label-family-3" name="family" value="FullStack">
+            <label for="label-family-3" name='label-family-option'>FullStack</label>
+          </div>
         </div>
-        <div id="label-family-options">
-          <input type= 'radio' id="label-family-2" name="family" value="Backend">
-          <label for="label-family-2" name='label-family-option'>Backend</label>
-        </div>
-        <div id="label-family-options">
-          <input type= 'radio' id="label-family-3" name="family" value="FullStack">
-          <label for="label-family-3" name='label-family-option'>FullStack</label>
-        </div>
-     
-    </div>
-    
-
-    
-      
-    <hr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Requisito 13 -->
-    <div id="label-content">
-      <p>Qual conteúdo você está com mais vontade de aprender?"</p>
-      <div class="label-itens">
-        <div class="label-itens-1">
-          <input type="checkbox" name="label-item" id="label-item-1" value="HoFs">
-          <label for="label-item-1">HoFs</label>
-        </div>
-        <div class="label-itens-2">
-          <input type="checkbox" name="label-item" id="label-item-2" value="Jest">
-          <label for="label-item-2">Jest</label>
-        </div>
-        <div class="label-itens-3">
-          <input type="checkbox" name="label-item" id="label-item-3" value="Promises">
-          <label for="label-item-3">Promises</label>
-        </div>
-        <div class="label-itens-4">
-          <input type="checkbox" name="label-item" id="label-item-4" value="React">
-          <label for="label-item-4">React</label>
-        </div>
-        <div class="label-itens-5">
-          <input type="checkbox" name="label-item" id="label-item-5" value="SQL">
-          <label for="label-item-5">SQL</label>
-        </div>
-        <div class="label-itens-6">
-          <input type="checkbox" name="label-item" id="label-item-6" value="Python">
-          <label for="label-item-6">Python</label>
+        <!-- Requisito 13 -->
+        <div id="label-content">
+          <p>Qual conteúdo você está com mais vontade de aprender?"</p>
+          <div class="label-itens">
+            <div class="label-itens-1">
+              <input type="checkbox" name="label-item" id="label-item-1" value="HoFs">
+              <label for="label-item-1">HoFs</label>
+            </div>
+            <div class="label-itens-2">
+              <input type="checkbox" name="label-item" id="label-item-2" value="Jest">
+              <label for="label-item-2">Jest</label>
+            </div>
+            <div class="label-itens-3">
+              <input type="checkbox" name="label-item" id="label-item-3" value="Promises">
+              <label for="label-item-3">Promises</label>
+            </div>
+            <div class="label-itens-4">
+              <input type="checkbox" name="label-item" id="label-item-4" value="React">
+              <label for="label-item-4">React</label>
+            </div>
+            <div class="label-itens-5">
+              <input type="checkbox" name="label-item" id="label-item-5" value="SQL">
+              <label for="label-item-5">SQL</label>
+            </div>
+            <div class="label-itens-6">
+              <input type="checkbox" name="label-item" id="label-item-6" value="Python">
+              <label for="label-item-6">Python</label>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <hr>
+      <hr>
     </form>
-<!-- Requisito 7 -->
+    <!-- Requisito 7 -->
     <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="logo-trybewarts">
 
 
@@ -135,4 +117,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
