@@ -18,11 +18,20 @@
 .trybewarts-login {
   display: flex;
 }
+.trybewarts-login {
+  display: flex;
+}
+/* REQUISITO 4 */
+header:nth-child(){
+  align-items: center;
+  text-align: center;
+}
 
 /* REQUISITO 5 */
 .main-content {
   display: flex;
 }
+/* REQUISITO 8 */
 #evaluation-form {
   display: flex;
   /* Requisito 6 */
