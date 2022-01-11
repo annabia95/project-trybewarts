@@ -8,6 +8,8 @@
   display: flex;
   justify-content: space-around;
   background-color: rgb(50, 167, 145);
+  height: 40px;
+  padding: 5px;
 }
 .trybewarts-login {
   display: flex;
