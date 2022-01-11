@@ -6,11 +6,17 @@
 /* REQUISITO 1 e REQUISITO 3*/
 .header {
   display: flex;
-  justify-content: space-between;
-  text-align: center;
+  justify-content: space-around;
   background-color: rgb(50, 167, 145);
   height: 40px;
   padding: 5px;
+}
+
+#trybewarts-header-title {
+  text-align: center;
+}
+.trybewarts-login {
+  display: flex;
 }
 .trybewarts-login {
   display: flex;
@@ -28,10 +34,19 @@ header:nth-child(){
 /* REQUISITO 8 */
 #evaluation-form {
   display: flex;
+  /* Requisito 6 */
   flex-direction: column;
   width: 675px;
 }
 /* REQUISITO 7 */
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+/* Requisito 12 */
+#label-family-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
 }
