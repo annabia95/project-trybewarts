@@ -6,15 +6,18 @@
 /* REQUISITO 1 e REQUISITO 3*/
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  text-align: center;
   background-color: rgb(50, 167, 145);
   height: 40px;
   padding: 5px;
 }
 
-#trybewarts-header-title {
+header:nth-child(){
+  align-items: center;
   text-align: center;
 }
+
 .trybewarts-login {
   display: flex;
 }
