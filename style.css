@@ -51,3 +51,13 @@ header:nth-child(){
   height: 200px;
   margin: 5px;
 }
+
+
+/* Requisito 19 */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(63, 56, 56);
+  color: white;
+  height: 30px;
+}
