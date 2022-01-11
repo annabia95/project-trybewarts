@@ -11,6 +11,10 @@
   height: 40px;
   padding: 5px;
 }
+
+#trybewarts-header-title {
+  text-align: center;
+}
 .trybewarts-login {
   display: flex;
 }
