@@ -44,7 +44,7 @@ header:nth-child(){
 .flex-container {
   display: flex;
 }
-#label-family-container, #label-content {
+#label-family-container, #label-contents {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
