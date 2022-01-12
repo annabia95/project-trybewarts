@@ -4,9 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Cormorant Garamond", serif;
+  font-family: Cormorant Garamond, serif;
 }
-/* REQUISITO 1,3 e 4*/
+
+/* REQUISITO 1,3 e 4 */
 .header {
   display: flex;
   justify-content: space-between;
@@ -20,8 +21,8 @@
   display: flex;
 }
 
-.input-email,.input-password, .btn-enter {
-  margin:4px;
+.input-email , .input-password , .btn-enter {
+  margin: 4px;
   padding: 2px;
 }
 
@@ -30,54 +31,62 @@ h1 {
 }
 
 h2 {
-  margin:15% ;
+  margin: 15%;
   padding: 10px;
 }
+
 /* REQUISITO 5 */
 .main-content {
   display: flex;
 }
+
 /* REQUISITO 8 */
 #evaluation-form {
   display: flex;
+
   /* Requisito 6 */
   flex-direction: column;
   margin: 0 5%;
   width: 675px;
 }
 
-#complete-name, #email-house {
+#complete-name , #email-house {
   display: flex;
   justify-content: space-between;
   margin: 2px;
 }
+
 /* REQUISITO 7 */
 #trybewarts-forms-logo {
   height: 500px;
   margin: 0 5%;
 }
+
 /* Requisito 12 e Requisito 13 */
 .flex-container {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
-#label-family-container, #label-contents {
+
+#label-family-container , #label-contents {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 200px;
   margin: 1% 0;
 }
-#label-rate-options, #label-infos {
+
+#label-rate-options , #label-infos {
   margin: 2% 0;
 }
-.textarea-content-item{
+
+.textarea-content-item {
   display: flex;
   flex-direction: column;
 }
 
-#submit-btn{
+#submit-btn {
   margin: 1% 0;
 }
 
@@ -88,6 +97,6 @@ footer {
   background-color: rgb(53, 44, 44);
   color: white;
   height: 30px;
-  padding: 5px 5px;
+  padding: 5px;
 }
 

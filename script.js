@@ -34,7 +34,7 @@ function textareaLengthCheck() {
   const counter = document.querySelector('#counter');
   const numberChar = parseInt(counter.innerText, 10);
   textArea.addEventListener('input', () => {
-    counter.innerText = numberChar - textArea.value.length + ' caracteres';
+    counter.innerText = numberChar - textArea.value.length;
   });
 }
 textareaLengthCheck();
