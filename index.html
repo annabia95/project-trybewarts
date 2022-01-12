@@ -22,7 +22,7 @@
       <label for="input-email"></label>
       <input type="email" class="input-email" name="email" placeholder="Email" required>
       <label for="input-password"></label>
-      <input type="password" class="input-password" name="password" placeholder="Senha" required>
+      <input type="password" class="input-password" name="password" placeholder="Senha" autocomplete="off" required>
       <button type="submit" class="btn-enter btn btn-secondary">Entrar</button>
     </form>
   </header>
@@ -100,16 +100,36 @@
       <!-- Requisito 14 -->
       <div id="label-rate-container">
         <label for="rate-option" id="label-rate">Como você avalia a Trybewarts?</label>
-        <input type='radio' id="rate-option" value="1" name="rate">1
-        <input type='radio' id="rate-option" value="2" name="rate">2
-        <input type='radio' id="rate-option" value="3" name="rate">3
-        <input type='radio' id="rate-option" value="4" name="rate">4
-        <input type='radio' id="rate-option" value="5" name="rate">5
-        <input type='radio' id="rate-option" value="6" name="rate">6
-        <input type='radio' id="rate-option" value="7" name="rate">7
-        <input type='radio' id="rate-option" value="8" name="rate">8
-        <input type='radio' id="rate-option" value="9" name="rate">9
-        <input type='radio' id="rate-option" value="10" name="rate">10
+        <label id='label-rate-options' name='label-rate-option' for="rate-option-1">
+          <input type='radio' id="rate-option-1" value="1" name="rate">1
+        </label>
+        <label id='label-rate-options' name='label-rate-option' for="rate-option-2">
+          <input type='radio' id="rate-option-2" value="2" name="rate">2
+        </label>
+        <label id='label-rate-options' name='label-rate-option' for="rate-option-3">
+          <input type='radio' id="rate-option-3" value="3" name="rate">3
+        </label>
+        <label id='label-rate-options' name='label-rate-option' for="rate-option-4">
+          <input type='radio' id="rate-option-4" value="4" name="rate">4
+        </label>
+        <label id='label-rate-options' name='label-rate-option' for="rate-option-5">
+          <input type='radio' id="rate-option-5" value="5" name="rate">5
+        </label>
+        <label id='label-rate-options' name='label-rate-option' for="rate-option-6">
+          <input type='radio' id="rate-option-6" value="6" name="rate">6
+        </label>
+        <label id='label-rate-options'  name='label-rate-option' for="rate-option-7">
+          <input type='radio' id="rate-option-7" value="7" name="rate">7
+        </label>
+        <label id='label-rate-options' name='label-rate-option' for="rate-option-8">
+          <input type='radio' id="rate-option-8" value="8" name="rate">8
+        </label>
+        <label id='label-rate-options' name='label-rate-option' for="rate-option-9">
+          <input type='radio' id="rate-option-9" value="9" name="rate">9
+        </label>
+        <label id='label-rate-options' name='label-rate-option' for="rate-option-10">
+          <input type='radio' id="rate-option-10" value="10" name="rate">10
+        </label>
       </div>
 
       <!-- Requisito 15 -->
@@ -122,9 +142,18 @@
 
       <!-- Requisito 17 -->
       <div class="flex-container">
-        <button id="submit-btn" class="btn btn-info" type="submit">Enviar</button>
+        <button id="submit-btn" class="btn btn-info" type="submit" disabled>Enviar</button>
       </div>
+
+         <!-- Requisito 16 -->
+     <label id="label-infos" name='agreement-label' for="checkbox">Você concorda com o uso das informações acima?
+      <input type='checkbox' id="agreement" value='yes' onchange="validateFormSubmit()">
+    </label>
+
     </form>
+
+     
+
     <!-- Requisito 7 -->
     <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="logo-trybewarts">
 

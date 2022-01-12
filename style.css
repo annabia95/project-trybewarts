@@ -79,3 +79,7 @@ footer {
   height: 30px;
   padding: 5px 5px;
 }
+
+#label-rate-options {
+  margin: 5px;
+}
