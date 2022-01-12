@@ -11,19 +11,20 @@ function validateLogin(event) {
     alert('Email ou senha inválidos.');
   }
 }
-btnEnter.addEventListener('click', validateLogin); 
+btnEnter.addEventListener('click', validateLogin);
 
 /* Requisito 18 */
-let agreementCheckbox = document.getElementById('agreement');
-let sendButton = document.getElementById('submit-btn');
+const agreementCheckbox = document.getElementById('agreement');
+const sendButton = document.getElementById('submit-btn');
 
-function validateFormSubmit (){
-  if (agreementCheckbox.checked == true) {
+function validateFormSubmit() {
+  if (agreementCheckbox.checked === true) {
     sendButton.disabled = false;
   } else {
     sendButton.disabled = true;
   }
 }
+validateFormSubmit();
 
 /* referencia requisito 18: https://www.w3schools.com/howto/howto_js_display_checkbox_text.asp
             https://www.w3schools.com/jsref/event_onchange.asp */
