@@ -28,3 +28,13 @@ validateFormSubmit();
 
 /* referencia requisito 18: https://www.w3schools.com/howto/howto_js_display_checkbox_text.asp
             https://www.w3schools.com/jsref/event_onchange.asp */
+/* Requisito 20: Usei como referência o seguinte link: https://stackoverflow.com/questions/14086398/count-textarea-characters e a documentação sobre parseInt():https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/parseInt */
+function textareaLengthCheck() {
+  const textArea = document.querySelector('#textarea');
+  const counter = document.querySelector('#counter');
+  const numberChar = parseInt(counter.innerText, 10);
+  textArea.addEventListener('input', () => {
+    counter.innerText = numberChar - textArea.value.length + ' caracteres';
+  });
+}
+textareaLengthCheck();

@@ -18,14 +18,14 @@
   display: flex;
 }
 .input-email,.input-password, .btn-enter{
-  margin: 2px;
+  margin:4px;
   padding: 2px;
 }
 h1 {
   color: white;
 }
 h2 {
-  margin:20% ;
+  margin:15% ;
   padding: 10px;
 }
 
@@ -42,8 +42,11 @@ h2 {
   width: 675px;
 }
 #complete-name, #email-house {
+  display: flex;
+  justify-content: space-between;
   margin: 2px;
 }
+
 /* REQUISITO 7 */
 #trybewarts-forms-logo {
   height: 500px;
@@ -53,21 +56,26 @@ h2 {
 /* Requisito 12 e Requisito 13 */
 .flex-container {
   display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 #label-family-container, #label-contents {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 200px;
-  margin: 5px;
+  margin: 1% 0;
 }
-
+#label-rate-options, #label-infos {
+  margin: 2% 0;
+}
 .textarea-content-item{
   display: flex;
   flex-direction: column;
 }
+
 #submit-btn{
-  margin: 2% 0;
+  margin: 1% 0;
 }
 
 /* Requisito 19 */
@@ -80,6 +88,3 @@ footer {
   padding: 5px 5px;
 }
 
-#label-rate-options {
-  margin: 5px;
-}

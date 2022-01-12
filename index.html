@@ -41,13 +41,15 @@
       <div id="email-house">
         <input id="input-email" placeholder="Email" required>
         <!--  Requisito 9 -->
-        <label for="house">Casa</label>
-        <select name="house" id="house">
-          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-          <option value="Corvinode" id="corvinode-house">Corvinode</option>
-          <option value="Pytherina" id="pytherina-house">Pytherina</option>
-        </select>
+        <div>
+          <label for="house" id="house-content">Casa</label>
+          <select name="house" id="house">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </div>
       </div>
       <hr>
       <div class="flex-container">
@@ -133,11 +135,12 @@
           <input type='radio' id="rate-option-10" value="10" name="rate">10
         </label>
       </div>
-      <!-- Requisito 15 -->
+      <!-- Requisito 15 e Requisito 20 -->
       <div id="textarea-content">
         <div class="textarea-content-item">
           <label class="textarea" for="abstract">Deixe seu comentário:</label>
-          <textarea name="abstract" style="resize: none;" maxlength="500"></textarea>
+          <textarea name="abstract" id="textarea" style="resize: none;" maxlength="500"></textarea>
+          <div id="counter">500 caracteres</div>
         </div>
       </div>
       <!-- Requisito 16 -->
