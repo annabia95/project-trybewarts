@@ -1,10 +1,25 @@
 Este projeto contém os requisitos realizados por _[Anna Beatriz Garcia Trajano de Sá](www.linkedin.com/in/anna-beatriz-trajano-de-sá)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
-_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
+# Project Trybewarts
 
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+Neste projeto, desenvolvi uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderiam enviar seus feedbacks sobre ela. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que programar é o mais próximo que podemos chegar de algo verdadeiramente mágico!
 
-# Boas vindas ao repositório do projeto Trybewarts Wizarding School! :mage:
+Veja o exemplo a seguir do layout do projeto!
+
+## Demo
+
+![Demo](img/video.gif)
+
+## Habilidades Desenvolvidas
+
+Neste projeto, desenvolvi as seguintes habilidades:
+
+* Criar formulários em HTML;
+* Utilizar CSS Flexbox para criar layouts flexíveis;
+* Criar regras CSS específicas para serem aplicadas a dispositivos móveis;
+* Construir páginas que alteram o seu layout de acordo com a orientação da tela;
+
+## Escopo do Projeto
 
    - [x] [1. Crie uma barra verde na parte superior da página](#1-crie-uma-barra-verde-na-parte-superior-da-página)
    - [x] [2. Adicione o logotipo da Trybewarts com a classe `trybewarts-header-logo` na barra superior](#2-adicione-o-logotipo-da-trybewarts-com-a-classe-trybewarts-header-logo-na-barra-superior)
@@ -27,12 +42,3 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
    - [x] [19. Crie um rodapé no final da página](#19-crie-um-rodapé-no-final-da-página)
   - [Lista de requisitos bônus:](#lista-de-requisitos-bônus)
    - [x] [20. Crie um contador com o ID `counter` contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que deverá ser atualizado a medida que algo for digitado na textarea](#20-crie-um-contador-com-o-id-counter-contendo-o-número-de-caracteres-disponíveis-no-textarea-variando-de-500-até-0-que-deverá-ser-atualizado-a-medida-que-algo-for-digitado-na-textarea)
-   
-# Habilidades
-
-Neste projeto, verificamos se você é capaz de:
-
-* Criar formulários em HTML;
-* Utilizar CSS Flexbox para criar layouts flexíveis;
-* Criar regras CSS específicas para serem aplicadas a dispositivos móveis;
-* Construir páginas que alteram o seu layout de acordo com a orientação da tela;
